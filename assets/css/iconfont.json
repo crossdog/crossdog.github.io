@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5959110",
+      "name": "google_play",
+      "font_class": "google_play",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "9112742",
+      "name": "广告",
+      "font_class": "guanggao",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "9695269",
+      "name": "图标_Ping看门狗",
+      "font_class": "tubiao_Pingkanmengou",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "12871657",
+      "name": "graphic-image-banner-element-app-store",
+      "font_class": "graphic-image-banner-element-app-store",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    }
+  ]
+}
