@@ -385,7 +385,6 @@
 					});
 
 			}
-
 		// Initialize.
 
 			// Hide main, articles.
@@ -406,6 +405,4 @@
     if(ua.match(/MicroMessenger/i) == 'micromessenger'){
 			$main._show('clock', true);
     }
-		console.log(v)
-
 })(jQuery);

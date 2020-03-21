@@ -304,6 +304,18 @@ input, select, textarea {
 .iconfont{
 	font-size: 50px;
 }
+#share{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;background: linear-gradient(to right, #eaca0a, #ff3bb1,#f00);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+.lincolor{
+	font-weight: bold;background: linear-gradient(to right, #eaca0a, #ff3bb1,#f00);
+	-webkit-background-clip: text;
+	color: transparent;
+}
 /* Box */
 
 	.box {
