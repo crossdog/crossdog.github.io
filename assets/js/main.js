@@ -14,6 +14,7 @@
 		$main = $('#main'),
 		$main_articles = $main.children('article');
 
+
 	// Breakpoints.
 		breakpoints({
 			xlarge:   [ '1281px',  '1680px' ],
@@ -397,5 +398,14 @@
 					$window.on('load', function() {
 						$main._show(location.hash.substr(1), true);
 					});
+		//share
+		var v=location.search.substr(1);
+		v && $main._show('share', true);
+		$("#cross").attr('href','cross://?v='+v+'&t='+Math.round(new Date() / 1000));
+		var ua = window.navigator.userAgent.toLowerCase();
+    if(ua.match(/MicroMessenger/i) == 'micromessenger'){
+			$main._show('clock', true);
+    }
+		console.log(v)
 
 })(jQuery);
